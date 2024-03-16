@@ -1,9 +1,9 @@
 # SonarQube
 ## Steps to Install SonarQube:
 sudo apt update -y
-### Step1->install java
+## Step1->install java
 sudo apt-get update && sudo apt-get install openjdk-11-jdk
-#### step2->
+## step2->
 apt install unzip
 user root:
 #adduser sonarqube
@@ -17,10 +17,10 @@ user sonarqube:
 #cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 #./sonar.sh start
 
-##### publicIP:9000 (by default username & password is admin)
+## publicIP:9000 (by default username & password is admin)
 Create the token
 
-###### SonarQube Plugin in jenkins:
+## SonarQube Plugin in jenkins:
 SonarQube Scanner (Install without restart)
 
 Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. 
